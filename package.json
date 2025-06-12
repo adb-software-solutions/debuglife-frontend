@@ -18,7 +18,7 @@
         "@milkdown/crepe": "^7.6.3",
         "@milkdown/kit": "^7.6.3",
         "@milkdown/plugin-emoji": "^7.8.0",
-        "@milkdown/react": "^7.8.0",
+        "@milkdown/react": "^7.13.1",
         "@milkdown/theme-nord": "^7.8.0",
         "@prosemirror-adapter/react": "^0.4.1",
         "@types/node": "^22.14.1",
