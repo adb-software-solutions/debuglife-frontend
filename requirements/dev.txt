@@ -116,9 +116,9 @@ coverage==7.7.0 \
     --hash=sha256:f5a2f71d6a91238e7628f23538c26aa464d390cbdedf12ee2a7a0fb92a24482a \
     --hash=sha256:f81fe93dc1b8e5673f33443c0786c14b77e36f1025973b85e07c70353e46882b
     # via -r requirements/dev.in
-flake8==7.1.2 \
-    --hash=sha256:1cbc62e65536f65e6d754dfe6f1bada7f5cf392d6f5db3c2b85892466c3e7c1a \
-    --hash=sha256:c586ffd0b41540951ae41af572e6790dbd49fc12b3aa2541685d253d9bd504bd
+flake8==7.2.0 \
+    --hash=sha256:93b92ba5bdb60754a6da14fa3b93a9361fd00a59632ada61fd7b130436c40343 \
+    --hash=sha256:fa558ae3f6f7dbf2b4f22663e5343b6b6023620461f8d4ff2019ef4b5ee70426
     # via -r requirements/dev.in
 gitlint-core==0.19.1 \
     --hash=sha256:7bf977b03ff581624a9e03f65ebb8502cc12dfaa3e92d23e8b2b54bbdaa29992 \
@@ -190,15 +190,15 @@ platformdirs==2.5.1 \
     --hash=sha256:7535e70dfa32e84d4b34996ea99c5e432fa29a708d0f4e394bbcb2a8faa4f16d \
     --hash=sha256:bcae7cab893c2d310a711b70b24efb93334febe65f8de776ee320b517471e227
     # via black
-pycodestyle==2.12.1 \
-    --hash=sha256:46f0fb92069a7c28ab7bb558f05bfc0110dac69a0cd23c61ea0040283a9d78b3 \
-    --hash=sha256:6838eae08bbce4f6accd5d5572075c63626a15ee3e6f842df996bf62f6d73521
+pycodestyle==2.13.0 \
+    --hash=sha256:35863c5974a271c7a726ed228a14a4f6daf49df369d8c50cd9a6f58a5e143ba9 \
+    --hash=sha256:c8415bf09abe81d9c7f872502a6eee881fbe85d8763dd5b9924bb0a01d67efae
     # via
     #   adamlint
     #   flake8
-pyflakes==3.2.0 \
-    --hash=sha256:1c61603ff154621fb2a9172037d84dca3500def8c8b630657d1701f026f8af3f \
-    --hash=sha256:84b5be138a2dfbb40689ca07e2152deb896a65c3a3e24c251c5c62489568074a
+pyflakes==3.3.2 \
+    --hash=sha256:5039c8339cbb1944045f4ee5466908906180f13cc99cc9949348d10f82a5c32a \
+    --hash=sha256:6dfd61d87b97fba5dcfaaf781171ac16be16453be6d816147989e7f6e6a9576b
     # via
     #   adamlint
     #   flake8
