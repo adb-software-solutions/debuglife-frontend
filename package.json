@@ -11,7 +11,7 @@
     "dependencies": {
         "@apollo/client": "^3.13.8",
         "@apollo/experimental-nextjs-app-support": "^0.11.11",
-        "@headlessui/react": "^2.2.4",
+        "@headlessui/react": "^2.2.6",
         "@headlessui/tailwindcss": "^0.2.2",
         "@heroicons/react": "^2.2.0",
         "@icons-pack/react-simple-icons": "^11.2.0",
