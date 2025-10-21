@@ -19,7 +19,7 @@ importers:
         version: 2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@headlessui/tailwindcss':
         specifier: ^0.2.2
-        version: 0.2.2(tailwindcss@4.1.10)
+        version: 0.2.2(tailwindcss@4.1.15)
       '@heroicons/react':
         specifier: ^2.2.0
         version: 2.2.0(react@19.1.0)
@@ -88,17 +88,17 @@ importers:
         version: 2.3.3(react@19.1.0)
       tablewind:
         specifier: ^2.6.0
-        version: 2.6.0(@headlessui/react@2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.10))(date-fns@4.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(swr@2.3.3(react@19.1.0))(tailwindcss@4.1.10)
+        version: 2.6.0(@headlessui/react@2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.15))(date-fns@4.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(swr@2.3.3(react@19.1.0))(tailwindcss@4.1.15)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
     devDependencies:
       '@tailwindcss/aspect-ratio':
         specifier: ^0.4.2
-        version: 0.4.2(tailwindcss@4.1.10)
+        version: 0.4.2(tailwindcss@4.1.15)
       '@tailwindcss/forms':
         specifier: ^0.5.10
-        version: 0.5.10(tailwindcss@4.1.10)
+        version: 0.5.10(tailwindcss@4.1.15)
       '@tailwindcss/postcss':
         specifier: ^4.1.10
         version: 4.1.10
@@ -109,8 +109,8 @@ importers:
         specifier: ^8.5.5
         version: 8.5.5
       tailwindcss:
-        specifier: ^4.1.10
-        version: 4.1.10
+        specifier: ^4.1.15
+        version: 4.1.15
     optionalDependencies:
       '@tailwindcss/oxide-linux-arm64-gnu':
         specifier: ^4.1.10
@@ -2703,6 +2703,9 @@ packages:
   tailwindcss@4.1.10:
     resolution: {integrity: sha512-P3nr6WkvKV/ONsTzj6Gb57sWPMX29EPNPopo7+FcpkQaNsrNpZ1pv8QmrYI2RqEKD7mlGqLnGovlcYnBK0IqUA==}
 
+  tailwindcss@4.1.15:
+    resolution: {integrity: sha512-k2WLnWkYFkdpRv+Oby3EBXIyQC8/s1HOFMBUViwtAh6Z5uAozeUSMQlIsn/c6Q2iJzqG6aJT3wdPaRNj70iYxQ==}
+
   tapable@2.2.2:
     resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
     engines: {node: '>=6'}
@@ -3284,9 +3287,9 @@ snapshots:
       react-dom: 19.1.0(react@19.1.0)
       use-sync-external-store: 1.5.0(react@19.1.0)
 
-  '@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.10)':
+  '@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.15)':
     dependencies:
-      tailwindcss: 4.1.10
+      tailwindcss: 4.1.15
 
   '@heroicons/react@2.2.0(react@19.1.0)':
     dependencies:
@@ -3972,14 +3975,14 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@4.1.10)':
+  '@tailwindcss/aspect-ratio@0.4.2(tailwindcss@4.1.15)':
     dependencies:
-      tailwindcss: 4.1.10
+      tailwindcss: 4.1.15
 
-  '@tailwindcss/forms@0.5.10(tailwindcss@4.1.10)':
+  '@tailwindcss/forms@0.5.10(tailwindcss@4.1.15)':
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 4.1.10
+      tailwindcss: 4.1.15
 
   '@tailwindcss/node@4.1.10':
     dependencies:
@@ -6321,17 +6324,17 @@ snapshots:
 
   tabbable@6.2.0: {}
 
-  tablewind@2.6.0(@headlessui/react@2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.10))(date-fns@4.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(swr@2.3.3(react@19.1.0))(tailwindcss@4.1.10):
+  tablewind@2.6.0(@headlessui/react@2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.15))(date-fns@4.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(swr@2.3.3(react@19.1.0))(tailwindcss@4.1.15):
     dependencies:
       '@headlessui/react': 2.2.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@headlessui/tailwindcss': 0.2.2(tailwindcss@4.1.10)
+      '@headlessui/tailwindcss': 0.2.2(tailwindcss@4.1.15)
       date-fns: 4.1.0
       next: 15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       react-router-dom: 7.6.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       swr: 2.3.3(react@19.1.0)
-      tailwindcss: 4.1.10
+      tailwindcss: 4.1.15
     transitivePeerDependencies:
       - '@babel/core'
       - '@opentelemetry/api'
@@ -6341,6 +6344,8 @@ snapshots:
       - sass
 
   tailwindcss@4.1.10: {}
+
+  tailwindcss@4.1.15: {}
 
   tapable@2.2.2: {}
 
