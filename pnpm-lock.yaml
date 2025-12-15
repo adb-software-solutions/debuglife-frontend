@@ -51,8 +51,8 @@ importers:
         specifier: ^19.1.6
         version: 19.1.6(@types/react@19.0.8)
       compromise:
-        specifier: ^14.14.4
-        version: 14.14.4
+        specifier: ^14.14.5
+        version: 14.14.5
       cookies-next:
         specifier: ^5.1.0
         version: 5.1.0(next@15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
@@ -1325,8 +1325,8 @@ packages:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
 
-  compromise@14.14.4:
-    resolution: {integrity: sha512-QdbJwronwxeqb7a5KFK/+Y5YieZ4PE1f7ai0vU58Pp4jih+soDCBMuKVbhDEPQ+6+vI3vSiG4UAAjTAXLJw1Qw==}
+  compromise@14.14.5:
+    resolution: {integrity: sha512-9qWxpOWo4crzvbdxAYDTwO6z0WljXwi6mL7CqCjAXKn7QtFijmSj7fCyAqGWldCVT2zNboMvg4kNL06drMg2Vw==}
     engines: {node: '>=12.0.0'}
 
   concat-map@0.0.1:
@@ -2245,6 +2245,7 @@ packages:
   next@15.3.3:
     resolution: {integrity: sha512-JqNj29hHNmCLtNvd090SyRbXJiivQ+58XjCcrC50Crb5g5u2zi7Y2YivbsEfzk6AtVI80akdOQbaMZwWB1Hthw==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -4529,7 +4530,7 @@ snapshots:
 
   commander@8.3.0: {}
 
-  compromise@14.14.4:
+  compromise@14.14.5:
     dependencies:
       efrt: 2.7.0
       grad-school: 0.0.5
