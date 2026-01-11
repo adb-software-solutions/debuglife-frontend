@@ -4,9 +4,9 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=requirements/dev.txt requirements/dev.in
 #
-adamlint==1.0.0 \
-    --hash=sha256:52fe206536df73bed78475d4c005467f1ebb8d90562693176bb84160b6079353 \
-    --hash=sha256:bb44b786130132352ee8754c08cbc529ca0412f61b53d659f710b0cef3a35ecb
+adamlint==1.1.0 \
+    --hash=sha256:5e5e13a1bb44d2ca879da41818819aadc66af0a636e123a9e9010d7c6203642b \
+    --hash=sha256:8b7ea430b72eecd11c9bd12de5af742660f9f25e3b9abe9956c7f2f871c36216
     # via -r requirements/dev.in
 arrow==1.2.2 \
     --hash=sha256:05caf1fd3d9a11a1135b2b6f09887421153b94558e5ef4d090b567b47173ac2b \

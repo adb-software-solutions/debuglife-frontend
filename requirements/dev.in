@@ -18,7 +18,7 @@ gitlint-core==0.19.1
 pip-tools==7.4.1
 
 # Linting framework
-adamlint==1.0.0
+adamlint==1.1.0
 
 # For spell check linter
 codespell==2.4.1
